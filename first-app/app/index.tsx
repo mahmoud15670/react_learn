@@ -1,11 +1,12 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import HomeScreen from "@/src/screens/homescreen/HomeScreen";
 
 export default function Index() {
   return (
     <View>
       <SafeAreaView>
-        <Text>Hello, World!</Text>
+        <HomeScreen />
       </SafeAreaView>
     </View>
   );
